@@ -41,7 +41,7 @@ int Producto::getPeso(){
 
 //Otros metodos
 string Producto::str(){
-    return nombre + '-' + to_string(precio) + '-' + to_string(peso) + '-' + to_string(calculaTotalPagar());
+    return nombre + '-' +  "$" +to_string(precio) + '-' + to_string(peso) + '-' + "$" +to_string(calculaTotalPagar());
 
 }
 
